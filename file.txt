@@ -1,4 +1,1 @@
-This file is created just to 
-understand the concepts of
-file handling in
-Python
+Kaioken

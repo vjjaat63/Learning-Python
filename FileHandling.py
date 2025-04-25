@@ -9,11 +9,20 @@
 
     b - binary mode
     t - text mode (default)
+    
+    r+ - to read and ovewrite from starting    
+    w+ - to read and delete previous ro write new
+    a+ - to read and append
 
 """
-f = open("learning python/file.txt","r") # r means read
+f = open("file.txt","r") # r means read
 
 data = f.read() # assingns the data of file to data
 print(data)
 # print(type(data))
+f.close()
+
+new = "Bankai Senbonzakura Kageyoshi \n"
+f = open("file.txt","a")
+f.write(new)
 f.close()
